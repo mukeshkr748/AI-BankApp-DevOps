@@ -36,7 +36,7 @@ spec:
               cpu: "100m"
       containers:
         - name: bankapp
-          image: trainwithshubham/bankapp:k8s
+          image: bankapp:k8s
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
